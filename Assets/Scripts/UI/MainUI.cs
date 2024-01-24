@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MainUI : MonoBehaviour
 {
-    [SerializeField] Animator stageIndicatorAnim;
+    [SerializeField] StageIndicator stageIndicator;
 
     [SerializeField] Text stageIndicator_StageNumText;
 
@@ -43,9 +43,7 @@ public class MainUI : MonoBehaviour
     public void IndicateStage(int stageNum)
     {
         stageNumText.text = $"Stage {stageNum}";
-
-        stageIndicator_StageNumText.text = stageNum.ToString();
-        stageIndicatorAnim.SetTrigger("OnStage");
+        stageIndicator.ShowStage(stageNum);
     }
 
     public void MatchHpBar(Character character)
