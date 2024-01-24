@@ -2842,7 +2842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 76, y: 47.8}
+  m_AnchoredPosition: {x: 76, y: 47.80005}
   m_SizeDelta: {x: 536, y: 95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &481739099
@@ -4588,7 +4588,7 @@ GameObject:
   - component: {fileID: 835436232}
   - component: {fileID: 835436231}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Sub_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4605,14 +4605,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1307540462}
-  m_RootOrder: 1
+  m_Father: {fileID: 1257893868}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148, y: -31}
-  m_SizeDelta: {x: 117, y: 21}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -50, y: 10}
+  m_SizeDelta: {x: 120, y: 20}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &835436231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5498,7 +5498,7 @@ Rigidbody2D:
   m_Constraints: 0
 --- !u!95 &1069969134
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5511,10 +5511,12 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1069969135
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5662,7 +5664,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &1091271944
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5675,10 +5677,12 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1091271945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6086,7 +6090,7 @@ RectTransform:
   m_Children:
   - {fileID: 1283696574}
   - {fileID: 1035265711}
-  - {fileID: 1307540462}
+  - {fileID: 1257893868}
   - {fileID: 481739097}
   - {fileID: 132181050}
   - {fileID: 1419479526}
@@ -6111,7 +6115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 512b4c826efa5c54ca06a0e17bb8dee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageIndicatorAnim: {fileID: 1307540463}
+  stageIndicatorAnim: {fileID: 0}
   stageIndicator_StageNumText: {fileID: 1345455712}
   returnCountText: {fileID: 132181051}
   playerNameText: {fileID: 1419479527}
@@ -6810,8 +6814,9 @@ GameObject:
   - component: {fileID: 1257893868}
   - component: {fileID: 1257893870}
   - component: {fileID: 1257893869}
+  - component: {fileID: 1257893871}
   m_Layer: 5
-  m_Name: "\uC2A4\uD14C\uC774\uC9C0 UI"
+  m_Name: StageIndicator_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6827,15 +6832,18 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1307540462}
-  m_RootOrder: 0
+  m_Children:
+  - {fileID: 835436230}
+  - {fileID: 1811184836}
+  - {fileID: 1345455711}
+  m_Father: {fileID: 1122533868}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35.99997, y: -8.499985}
-  m_SizeDelta: {x: 485, y: 76}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: -480, y: 25}
+  m_SizeDelta: {x: 480, y: 80}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1257893869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6874,6 +6882,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257893867}
   m_CullTransparentMesh: 1
+--- !u!114 &1257893871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257893867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea9dccd45331fc4abae9a7d0f4276c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveValue: 40
+  moveTime: 1
+  stageNumberText: {fileID: 1345455712}
 --- !u!1 &1261129379
 GameObject:
   m_ObjectHideFlags: 0
@@ -6909,7 +6932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 130, y: 38.3}
+  m_AnchoredPosition: {x: 130, y: 38.30005}
   m_SizeDelta: {x: 40, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1261129381
@@ -7104,65 +7127,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1307540461
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1307540462}
-  - component: {fileID: 1307540463}
-  m_Layer: 5
-  m_Name: Stage Indicator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1307540462
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307540461}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1257893868}
-  - {fileID: 835436230}
-  - {fileID: 1811184836}
-  - {fileID: 1345455711}
-  m_Father: {fileID: 1122533868}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.26, y: 0.5733333}
-  m_AnchorMax: {x: 0.26, y: 0.5733333}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1307540463
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307540461}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9ea1d6470219303499c42a612623953f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1330341669
 GameObject:
   m_ObjectHideFlags: 0
@@ -7206,7 +7170,7 @@ GameObject:
   - component: {fileID: 1345455712}
   - component: {fileID: 1345455714}
   m_Layer: 5
-  m_Name: StageNumberText
+  m_Name: StageNumber_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7223,12 +7187,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1307540462}
-  m_RootOrder: 3
+  m_Father: {fileID: 1257893868}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.2952, y: 18.405584}
+  m_AnchoredPosition: {x: -40, y: 25}
   m_SizeDelta: {x: 110, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1345455712
@@ -7557,7 +7521,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1441970779
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7570,10 +7534,12 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1441970780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9895,7 +9861,7 @@ GameObject:
   - component: {fileID: 1811184838}
   - component: {fileID: 1811184837}
   m_Layer: 5
-  m_Name: StageText
+  m_Name: StageText_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9912,13 +9878,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1307540462}
-  m_RootOrder: 2
+  m_Father: {fileID: 1257893868}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63.49997, y: -20.999985}
-  m_SizeDelta: {x: 124, y: 51}
+  m_AnchoredPosition: {x: 0, y: -5}
+  m_SizeDelta: {x: 120, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1811184837
 MonoBehaviour:
@@ -9962,7 +9928,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 100
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
