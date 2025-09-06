@@ -40,15 +40,6 @@ public class StageIndicator : MonoBehaviour
             text.color = new Color(text.color.r, text.color.g, text.color.b, 0f);
         }
     }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            ShowStage(10);
-        }
-    }
-
     public void ShowStage(int stageNumber)
     {
         gameObject.SetActive(true);
