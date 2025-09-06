@@ -75,7 +75,7 @@ TextureImporter:
       213: 7580398036946460756
     second: SwordMan_3_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +682,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      SwordMan_3_0: -6600622500561039938
+      SwordMan_3_1: 7465987395125372995
+      SwordMan_3_10: 8273473848925719468
+      SwordMan_3_11: -3924876228314380354
+      SwordMan_3_12: 5421499836607145046
+      SwordMan_3_13: -5414714617059329199
+      SwordMan_3_14: -3092590483108625853
+      SwordMan_3_15: 7361099362795366928
+      SwordMan_3_16: 2644434878203221034
+      SwordMan_3_17: -6554227749360645759
+      SwordMan_3_18: 5381992111353939149
+      SwordMan_3_19: 3947211154627014955
+      SwordMan_3_2: -4169035851268921241
+      SwordMan_3_20: -2844422145732644807
+      SwordMan_3_21: 1266993063314055530
+      SwordMan_3_22: 5296514096302213700
+      SwordMan_3_23: 7580398036946460756
+      SwordMan_3_3: -69912528659005241
+      SwordMan_3_4: 6283021445784849483
+      SwordMan_3_5: 8570605479675289802
+      SwordMan_3_6: 496140961761986397
+      SwordMan_3_7: -7821306097904323291
+      SwordMan_3_8: 6308288887252341226
+      SwordMan_3_9: -6489685154709931042
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

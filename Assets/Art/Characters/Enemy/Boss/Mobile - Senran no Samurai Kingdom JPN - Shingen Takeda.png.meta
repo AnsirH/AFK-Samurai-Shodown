@@ -75,7 +75,7 @@ TextureImporter:
       213: -2909593571044080424
     second: Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +682,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_0: -3008208614813816280
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_1: 3676366864796627870
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_10: -6914646304968298511
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_11: 5555717308454164943
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_12: 5076537594847597561
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_13: -7084579358456697317
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_14: 9131994039442791376
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_15: 5083757076929371330
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_16: -6574669858989387244
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_17: -3194768143023232264
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_18: 4610272212090474139
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_19: 4354290214698087665
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_2: 54893300494581243
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_20: -7455747788238556612
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_21: -7864227766325616402
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_22: 5212647490678921933
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_23: -2909593571044080424
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_3: -561170393127879541
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_4: -6484529818756192350
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_5: -6333147109415845641
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_6: 1165101669892728984
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_7: 1728647727432200109
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_8: -3208635361453972761
+      Mobile - Senran no Samurai Kingdom JPN - Shingen Takeda_9: 4253618557761722835
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

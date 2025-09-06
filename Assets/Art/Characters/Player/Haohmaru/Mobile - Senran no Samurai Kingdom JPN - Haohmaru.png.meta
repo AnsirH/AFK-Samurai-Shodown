@@ -75,7 +75,7 @@ TextureImporter:
       213: -2971915524938739792
     second: Mobile - Senran no Samurai Kingdom JPN - Haohmaru_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +682,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_0: -5414630827966485006
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_1: -2347081083680020844
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_10: -1614169957308925680
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_11: -4328992167257167483
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_12: 8719962862878644561
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_13: 8068124793575880716
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_14: 2442892119768179583
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_15: -4023971138784905271
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_16: 4128141264210998100
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_17: 5418599340119502091
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_18: -6754467713696764367
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_19: -6986798213617397595
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_2: 8408959862800693445
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_20: -4598734960429709681
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_21: -4927019328203272616
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_22: 1472508606943729914
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_23: -2971915524938739792
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_3: -5813251971187444693
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_4: 7334119785770138144
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_5: 792043225764322707
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_6: -6279430513275578209
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_7: -3600345448584806446
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_8: 3162209754862136245
+      Mobile - Senran no Samurai Kingdom JPN - Haohmaru_9: -4681295230664486879
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

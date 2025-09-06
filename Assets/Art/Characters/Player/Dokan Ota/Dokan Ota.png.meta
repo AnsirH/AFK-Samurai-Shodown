@@ -78,7 +78,7 @@ TextureImporter:
       213: -5464050385338293646
     second: Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_24
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -95,10 +95,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -108,8 +110,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -137,6 +139,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -148,6 +152,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -160,6 +165,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -700,9 +706,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_0: -6050148582055690484
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_1: -2322169462578149558
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_10: -5050211566782327115
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_11: -2380002685994715366
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_12: -7854079679700916825
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_13: -4620916210417661760
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_14: -6618754041550738611
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_15: 2501136003777434326
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_16: 3305728082377592200
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_17: -1521287103641646279
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_18: -7670867456747136980
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_19: 1931581840031703746
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_2: -6850147795010157056
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_20: 1179238582264393551
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_21: -8819262143841254393
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_22: 7292269967277093095
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_23: 6644649361766880871
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_24: -5464050385338293646
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_3: -730842264338094513
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_4: -7091845058745672819
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_5: -4581496453065711341
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_6: 106336040593091856
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_7: 360283853556375119
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_8: 5896786142869829366
+      Mobile - Senran no Samurai Kingdom JPN - Dokan Ota_9: -1407001851305213806
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

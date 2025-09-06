@@ -75,7 +75,7 @@ TextureImporter:
       213: -1573979877379126859
     second: Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +682,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_0: -3078675642913127220
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_1: 6984101632995195992
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_10: 6603234292750356401
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_11: 6489176191939691146
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_12: 283719427695657225
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_13: 159973221724310220
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_14: 6754764191396794534
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_15: -4119485001439969227
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_16: -8807646636582765891
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_17: 1723639095102631710
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_18: -5604955229043350640
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_19: 2028376728165106451
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_2: 6635529293543884237
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_20: -2983356639625316454
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_21: -1822058322519327735
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_22: 4997557189361548684
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_23: -1573979877379126859
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_3: -3883022481813555748
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_4: 3695837467232413971
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_5: 2071896598612316155
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_6: -466922076088433398
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_7: -4206289252746370430
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_8: -7041891414815388318
+      Mobile - Senran no Samurai Kingdom JPN - Musashi Miyamoto_9: 3092155689561450257
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

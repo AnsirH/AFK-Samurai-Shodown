@@ -75,7 +75,7 @@ TextureImporter:
       213: 5751213205419046566
     second: Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +682,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_0: -585160974588938283
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_1: 103996954202938278
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_10: 7620844196722642382
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_11: -5558817781976860056
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_12: 2457505364648756112
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_13: 4183703471066028510
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_14: -6242272127103790630
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_15: 6127405682224285731
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_16: 5343872381809439449
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_17: 4956783068153419605
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_18: -9068959388433413461
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_19: -8820884333017252180
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_2: -79483257418432592
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_20: 734762865832379107
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_21: -6051630293653441243
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_22: 2771080369127466104
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_23: 5751213205419046566
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_3: -7281567906457594805
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_4: -5750481989229442982
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_5: -8905547997770098538
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_6: -3981642271720291579
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_7: -1458942628932439754
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_8: 7506047325709687657
+      Mobile - Senran no Samurai Kingdom JPN - Holy Beast Soldier_9: -1922199194811410245
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
