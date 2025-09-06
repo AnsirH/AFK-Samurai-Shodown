@@ -75,7 +75,7 @@ TextureImporter:
       213: -4048024960473846899
     second: Boss_1_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +682,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Boss_1_0: 2606170599746044764
+      Boss_1_1: -186934391467744376
+      Boss_1_10: 7203414068075668954
+      Boss_1_11: -2863705709969725294
+      Boss_1_12: 1153852909765881013
+      Boss_1_13: -1179825286059758541
+      Boss_1_14: 4216251283264332088
+      Boss_1_15: -4909068716735781004
+      Boss_1_16: -7329705051229645815
+      Boss_1_17: -2862288755636174990
+      Boss_1_18: -4877800157828273099
+      Boss_1_19: 5071090072058327893
+      Boss_1_2: 7321953656073145585
+      Boss_1_20: -7417736520586822776
+      Boss_1_21: 4906089713867860858
+      Boss_1_22: 9024546008931653707
+      Boss_1_23: -4048024960473846899
+      Boss_1_3: 5234633128129871323
+      Boss_1_4: 5748145110552777029
+      Boss_1_5: 3808024301101246470
+      Boss_1_6: 3461760767377928218
+      Boss_1_7: 9031751456524698551
+      Boss_1_8: -2612095112044713748
+      Boss_1_9: -6297026483180350735
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

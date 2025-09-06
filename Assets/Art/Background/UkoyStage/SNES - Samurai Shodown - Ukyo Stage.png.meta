@@ -45,7 +45,7 @@ TextureImporter:
       213: 7669218598876190092
     second: SNES - Samurai Shodown - Ukyo Stage_13
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -62,10 +62,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -75,8 +77,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -104,6 +106,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -115,6 +119,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -127,6 +132,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -436,9 +442,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      SNES - Samurai Shodown - Ukyo Stage_0: 6531412558995969912
+      SNES - Samurai Shodown - Ukyo Stage_1: 3255752094089258428
+      SNES - Samurai Shodown - Ukyo Stage_10: 5525835505462534492
+      SNES - Samurai Shodown - Ukyo Stage_11: 1116852664888959144
+      SNES - Samurai Shodown - Ukyo Stage_12: -4943413973393076999
+      SNES - Samurai Shodown - Ukyo Stage_13: 7669218598876190092
+      SNES - Samurai Shodown - Ukyo Stage_2: 8607420191670695211
+      SNES - Samurai Shodown - Ukyo Stage_3: 5316472399155126715
+      SNES - Samurai Shodown - Ukyo Stage_4: -7551569181031712354
+      SNES - Samurai Shodown - Ukyo Stage_5: -1441347282367567290
+      SNES - Samurai Shodown - Ukyo Stage_6: 6567512694090684981
+      SNES - Samurai Shodown - Ukyo Stage_7: -8542409214479630679
+      SNES - Samurai Shodown - Ukyo Stage_8: 5789912457785453261
+      SNES - Samurai Shodown - Ukyo Stage_9: -5153570196887346947
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

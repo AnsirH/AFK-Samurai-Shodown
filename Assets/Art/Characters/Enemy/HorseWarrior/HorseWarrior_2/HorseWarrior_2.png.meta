@@ -75,7 +75,7 @@ TextureImporter:
       213: 8248564241002679052
     second: HorseWarrior_2_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +682,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      HorseWarrior_2_0: -7949381922551983555
+      HorseWarrior_2_1: -7152738983202511915
+      HorseWarrior_2_10: -9117278099508456822
+      HorseWarrior_2_11: -7861469406675427550
+      HorseWarrior_2_12: -3863294229652389475
+      HorseWarrior_2_13: 5947348112097562484
+      HorseWarrior_2_14: -4065939647727676866
+      HorseWarrior_2_15: 3692865367535131285
+      HorseWarrior_2_16: -495923835583389618
+      HorseWarrior_2_17: 658499309917488607
+      HorseWarrior_2_18: -1429593208434559539
+      HorseWarrior_2_19: -2300431223014576399
+      HorseWarrior_2_2: -5375836696456422858
+      HorseWarrior_2_20: -607340828928669827
+      HorseWarrior_2_21: 6403465062353099993
+      HorseWarrior_2_22: 6764243208848921195
+      HorseWarrior_2_23: 8248564241002679052
+      HorseWarrior_2_3: -4962730216933656326
+      HorseWarrior_2_4: -944800389299338336
+      HorseWarrior_2_5: -4038501871256278292
+      HorseWarrior_2_6: -468963689800902203
+      HorseWarrior_2_7: -6704143435715035467
+      HorseWarrior_2_8: -4692872336603356521
+      HorseWarrior_2_9: -1667891784067986779
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

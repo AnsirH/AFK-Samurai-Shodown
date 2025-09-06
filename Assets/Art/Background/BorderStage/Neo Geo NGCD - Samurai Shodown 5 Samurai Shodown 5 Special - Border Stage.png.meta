@@ -63,7 +63,7 @@ TextureImporter:
       213: -2840013640452615129
     second: Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -80,10 +80,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -93,8 +95,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -122,6 +124,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -133,6 +137,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -145,6 +150,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -580,9 +586,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_0: -8929866422814484170
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_1: 6787122958844495427
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_10: -2550836685156195078
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_11: -6430081256067691321
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_12: -6915100259401757665
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_13: 1614128728269497279
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_14: -7843566517453039969
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_15: 5306677993755096586
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_16: -5677003985407405683
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_17: -6610192514235468739
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_18: 4506450971745494125
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_19: -2840013640452615129
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_2: -6543727026485648633
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_3: -1559762324634506730
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_4: -4358051744811957126
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_5: -820539732645932500
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_6: 3332055427065137125
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_7: -6571226799099274864
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_8: 8491882364570952261
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Border Stage_9: 129258801633013063
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

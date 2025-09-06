@@ -75,7 +75,7 @@ TextureImporter:
       213: -6307243026766379040
     second: SpearMan_1_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +682,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      SpearMan_1_0: -167256888319776956
+      SpearMan_1_1: 9068139586939883828
+      SpearMan_1_10: 4310412180335648816
+      SpearMan_1_11: 5924429925672401128
+      SpearMan_1_12: 3525941097727257715
+      SpearMan_1_13: -7110692423655579207
+      SpearMan_1_14: -805326053428037355
+      SpearMan_1_15: -6276802474435877805
+      SpearMan_1_16: 8791452598760612455
+      SpearMan_1_17: 4838599048524627015
+      SpearMan_1_18: 7127022967077330772
+      SpearMan_1_19: 8078543131610194101
+      SpearMan_1_2: 173035422973538456
+      SpearMan_1_20: 3418664745710901109
+      SpearMan_1_21: 3676598683499012575
+      SpearMan_1_22: 4804883617921310261
+      SpearMan_1_23: -6307243026766379040
+      SpearMan_1_3: -5792754451894355791
+      SpearMan_1_4: 1392641027836944386
+      SpearMan_1_5: -338111803490082245
+      SpearMan_1_6: 6694205717485785170
+      SpearMan_1_7: 7735244428779529687
+      SpearMan_1_8: 7311157299144390455
+      SpearMan_1_9: 7551354323784953090
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

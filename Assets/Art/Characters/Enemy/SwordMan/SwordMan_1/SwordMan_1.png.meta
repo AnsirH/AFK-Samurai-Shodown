@@ -75,7 +75,7 @@ TextureImporter:
       213: 37381052729385293
     second: Mobile - Senran no Samurai Kingdom JPN - Swordsman_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,8 +107,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -134,6 +136,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -145,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -157,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -676,9 +682,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_0: 4189619276563519181
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_1: 5885323110972837889
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_10: 6775558112664498801
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_11: -4735228711730262131
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_12: -6757158011672035266
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_13: 7485873573832205170
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_14: 2783616175918058458
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_15: 3859464263748970509
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_16: -487176759839667680
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_17: 5344877073512453530
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_18: 7339157300411786488
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_19: 5802309179911728128
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_2: -5750725271336800290
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_20: 5045958388523933212
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_21: -7534263984701092099
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_22: -7108716772646365584
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_23: 37381052729385293
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_3: -7326993551905647919
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_4: 1400684974526681049
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_5: -1579937525230853660
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_6: -7277160447565660070
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_7: -7095449837941039988
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_8: 2657110762748511006
+      Mobile - Senran no Samurai Kingdom JPN - Swordsman_9: 5401701272246365220
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

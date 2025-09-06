@@ -48,7 +48,7 @@ TextureImporter:
       213: 2682897341742211573
     second: Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_14
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -65,10 +65,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -78,8 +80,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -107,6 +109,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -118,6 +122,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -130,6 +135,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -460,9 +466,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_0: 831801160301939623
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_1: -4029229775948992560
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_10: 5192541805448577089
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_11: -3750282963350895124
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_12: -5743130049383390243
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_13: -8023334130010219321
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_14: 2682897341742211573
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_2: 1240688138936698118
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_3: 6938109988694722845
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_4: -2139575580451954065
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_5: 8863517800256286328
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_6: -10497032100130309
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_7: 8501617083680899868
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_8: -148011422570532477
+      Neo Geo NGCD - Samurai Shodown 5 Samurai Shodown 5 Special - Busy Dojo_9: 2727456156021417405
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
